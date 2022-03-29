@@ -46,6 +46,7 @@ function Calculator () {
 
     <input type="number" placeholder="enter second num..." name="num2" value={num2} onChange={e =>setNum2(+e.target.value)}/>
     <div className="button">
+        <h4>Choose operand:</h4>
     <input className = "input" type="button" value="+" onClick={add} />
     <input className = "input" type="button" value="-" onClick={subtract} />
     <input className = "input" type="button" value="/" onClick={divide}/>
