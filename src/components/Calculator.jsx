@@ -42,14 +42,14 @@ function Calculator () {
     <br />
 
     <form className="form">
-    <input type="number" placeholder="0" name="num1" value={num1} onChange={e =>setNum1(+e.target.value)}/>
+    <input type="number" placeholder="enter first num...." name="num1" value={num1} onChange={e =>setNum1(+e.target.value)}/>
 
-    <input type="number" placeholder="0" name="num2" value={num2} onChange={e =>setNum2(+e.target.value)}/>
-    <div class="button">
-    <input className = "input" type="button" value="Add" onClick={add} />
-    <input className = "input" type="button" value="Subtract" onClick={subtract} />
-    <input className = "input" type="button" value="Divide" onClick={divide}/>
-    <input className = "input" type="button" value="Multiply" onClick={multiply}/>
+    <input type="number" placeholder="enter second num..." name="num2" value={num2} onChange={e =>setNum2(+e.target.value)}/>
+    <div className="button">
+    <input className = "input" type="button" value="+" onClick={add} />
+    <input className = "input" type="button" value="-" onClick={subtract} />
+    <input className = "input" type="button" value="/" onClick={divide}/>
+    <input className = "input" type="button" value="*" onClick={multiply}/>
     </div>
 
     <h1>{result}</h1>
