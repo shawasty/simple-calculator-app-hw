@@ -1,0 +1,32 @@
+.container{
+    background-color: #f6f2f2;
+    width: 500px;
+    height: 450px;
+    color: #e91b1b;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+   
+    
+    /* text-align: center; */
+}
+
+.button{
+    margin: 20px;
+    padding: 20px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+form{
+    background-color: white;
+}
+button{
+    color: #eee2e2;
+    background-color: #e91b1b;
+}
+
